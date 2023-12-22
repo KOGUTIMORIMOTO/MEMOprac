@@ -55,9 +55,14 @@ function saveData7() {
 }
 
 function deleteData1() {
-    localStorage.removeItem('savedData1');
-    localStorage.removeItem('savedData1_1');
-    location.reload();
+    var res = confirm("よろしいですか？");
+    if( res == true ) {
+        localStorage.removeItem('savedData1');
+        localStorage.removeItem('savedData1_1');
+        location.reload();
+    } else {
+        alert("削除されませんでした。");
+    }
 }
 
 function deleteData2() {
