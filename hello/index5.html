@@ -6,10 +6,10 @@
         <script src="index.js"></script>
     </head>
     <body>
-        <h1><div class="a">5のスペース　　　<div class="d">保存を忘れずに</div></div></h1>　　　<input type="button" class="yellowbutton" onclick="location.href='index.html'" value="ホームへ">　　　<input type="button" class="bluebutton" onclick="location.href='index5_5.html'" value="完了">　　　<input type="button" class="purplebutton" onclick="saveData5()" value="保存"><br><br>
+        <h1><div class="a">5のスペース　　　<div class="d">保存を忘れずに</div></div></h1>　　　<input type="button" class="yellowbutton" onclick="location.href='index.html'" value="ホームへ">　　　<input type="button" class="purplebutton" onclick="saveData5(); location.href='index5_5.html'" value="保存"><br><br>
         <input id="dataInput5_5" class="title" placeholder="タイトル"><br><br>
         <textarea id="dataInput5" class="textarea" placeholder="メモを入力"></textarea><br><br>
-        <div class="i"><input type="button" class="purplebutton" onclick="saveData5()" value="保存"></div>
+        <div class="i"><input type="button" class="purplebutton" onclick="saveData5(); location.href='index5_5.html'" value="保存"></div>
 
         <script>
             document.addEventListener('DOMContentLoaded', function() {
