@@ -55,50 +55,80 @@ function saveData7() {
 }
 
 function deleteData1() {
-    var res = confirm("よろしいですか？");
+    var res = confirm("スペース1の内容を削除します。よろしいですか？");
     if( res == true ) {
         localStorage.removeItem('savedData1');
         localStorage.removeItem('savedData1_1');
         location.reload();
     } else {
-        alert("削除されませんでした。");
+        location.reload();
     }
 }
 
 function deleteData2() {
-    localStorage.removeItem('savedData2');
-    localStorage.removeItem('savedData2_2');
-    location.reload();
+    var res = confirm("スペース2の内容を削除します。よろしいですか？");
+    if( res == true ) {
+        localStorage.removeItem('savedData2');
+        localStorage.removeItem('savedData2_2');
+        location.reload();
+    } else {
+        location.reload();
+    }
 }
 
 function deleteData3() {
-    localStorage.removeItem('savedData3');
-    localStorage.removeItem('savedData3_3');
-    location.reload();
+    var res = confirm("スペース3の内容を削除します。よろしいですか？");
+    if( res == true ) {
+        localStorage.removeItem('savedData3');
+        localStorage.removeItem('savedData3_3');
+        location.reload();
+    } else {
+        location.reload();
+    }
 }
 
 function deleteData4() {
-    localStorage.removeItem('savedData4');
-    localStorage.removeItem('savedData4_4');
-    location.reload();
+    var res = confirm("スペース4の内容を削除します。よろしいですか？");
+    if( res == true ) {
+        localStorage.removeItem('savedData4');
+        localStorage.removeItem('savedData4_4');
+        location.reload();
+    } else {
+        location.reload();
+    }
 }
 
 function deleteData5() {
-    localStorage.removeItem('savedData5');
-    localStorage.removeItem('savedData5_5');
-    location.reload();
+    var res = confirm("スペース5の内容を削除します。よろしいですか？");
+    if( res == true ) {
+        localStorage.removeItem('savedData5');
+        localStorage.removeItem('savedData5_5');
+        location.reload();
+    } else {
+        location.reload();
+    }
 }
 
 function deleteData6() {
-    localStorage.removeItem('savedData6');
-    localStorage.removeItem('savedData6_6');
-    location.reload();
+    var res = confirm("スペース6の内容を削除します。よろしいですか？");
+    if( res == true ) {
+        localStorage.removeItem('savedData6');
+        localStorage.removeItem('savedData6_6');
+        location.reload();
+    } else {
+        location.reload();
+    }
 }
 
 function deleteData7() {
-    localStorage.removeItem('savedData7');
-    localStorage.removeItem('savedData7_7');
-    location.reload();
+    var res = confirm("スペース7の内容を削除します。よろしいですか？");
+    if( res == true ) {
+        localStorage.removeItem('savedData7');
+        localStorage.removeItem('savedData7_7');
+        location.reload();
+    } else {
+        location.reload();
+    }
 }
 
 document.addEventListener('DOMContentLoaded', function() {
