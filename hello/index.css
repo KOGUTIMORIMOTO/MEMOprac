@@ -91,7 +91,7 @@
 }
 
 .redbutton {
-  width: 100px;
+  width: 200px;
   height:50px;
   background-color:rgb(203, 125, 129);
   border-radius: 10px;
@@ -100,7 +100,7 @@
 }
 
 .redbutton:active {
-  width: 100px;
+  width: 200px;
   height:50px;
   background-color:rgb(152, 73, 76);
   border-radius: 10px;
