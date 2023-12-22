@@ -55,17 +55,8 @@ function saveData7() {
 }
 
 function deleteData1() {
-    <><input type="button" class="bluebutton" onclick="deleteData1_1()" value="本当に？"></input>
-    <input type="button" class="bluebutton" onclick="deleteData1_2()" value="やめる"></input></>
-}
-
-function deleteData1_1() {
     localStorage.removeItem('savedData1');
     localStorage.removeItem('savedData1_1');
-    location.reload();
-}
-
-function deleteData1_2() {
     location.reload();
 }
 
