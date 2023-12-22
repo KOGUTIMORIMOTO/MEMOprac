@@ -54,6 +54,48 @@ function saveData7() {
     localStorage.setItem('savedData7_7', inputData7_7);
 }
 
+function deleteData1() {
+    localStorage.removeItem('savedData1');
+    localStorage.removeItem('savedData1_1');
+    location.reload();
+}
+
+function deleteData2() {
+    localStorage.removeItem('savedData2');
+    localStorage.removeItem('savedData2_2');
+    location.reload();
+}
+
+function deleteData3() {
+    localStorage.removeItem('savedData3');
+    localStorage.removeItem('savedData3_3');
+    location.reload();
+}
+
+function deleteData4() {
+    localStorage.removeItem('savedData4');
+    localStorage.removeItem('savedData4_4');
+    location.reload();
+}
+
+function deleteData5() {
+    localStorage.removeItem('savedData5');
+    localStorage.removeItem('savedData5_5');
+    location.reload();
+}
+
+function deleteData6() {
+    localStorage.removeItem('savedData6');
+    localStorage.removeItem('savedData6_6');
+    location.reload();
+}
+
+function deleteData7() {
+    localStorage.removeItem('savedData7');
+    localStorage.removeItem('savedData7_7');
+    location.reload();
+}
+
 document.addEventListener('DOMContentLoaded', function() {
     var savedData1_1 = localStorage.getItem('savedData1_1');
     document.getElementById('dataInput1_1').value = savedData1_1 || 'タイトルなし'; 
@@ -88,9 +130,3 @@ document.addEventListener('DOMContentLoaded', function() {
     var savedData7_7 = localStorage.getItem('savedData7_7');
     document.getElementById('dataInput7_7').value = savedData7_7 || 'タイトルなし'; 
 });
-
-function deleteData1() {
-    localStorage.removeItem('savedData1');
-    localStorage.removeItem('savedData1_1');
-    location.reload();
-}
