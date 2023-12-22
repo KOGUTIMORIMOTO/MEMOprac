@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>2のスペース</title>
+        <link rel="stylesheet" href="index.css" type="text/css">
+    </head>
+    <body>
+        <h1><div class="a">2のスペース</div></h1>　　　<input type="button" class="yellowbutton" onclick="location.href='index.html'" value="ホームへ">　　　<input type="button" class="pinkbutton" onclick="location.href='index2.html'" value="編集"><br><br><br>
+        <div class="t"><br>
+            <div class="i">
+                <span id="savedData2_2"></span>
+            </div><br>
+        </div><br>
+        <div class="m"><br>
+            <div class="i">
+                <span id="savedData2"></span>
+            </div><br>
+        </div><br>
+
+        <script>
+            var savedData2 = localStorage.getItem('savedData2');
+            document.getElementById('savedData2').innerText = savedData2 || 'メモなし';
+        </script>
+        <script>
+            var savedData2_2 = localStorage.getItem('savedData2_2');
+            document.getElementById('savedData2_2').innerText = savedData2_2 || 'タイトルなし';
+        </script>
+    </body>
+</html>
