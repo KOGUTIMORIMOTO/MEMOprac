@@ -90,6 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function deleteData1() {
-    document.getElementById('savedData1').value = '';
-    document.getElementById('savedData1_1').value = '';
+    localStorage.removeItem('savedData1');
+    localStorage.removeItem('savedData1_1');
+    location.reload();
 }
