@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>6のスペース</title>
+        <link rel="stylesheet" href="index.css" type="text/css">
+    </head>
+    <body>
+        <h1><div class="a">6のスペース</div></h1>　　　<input type="button" class="yellowbutton" onclick="location.href='index.html'" value="ホームへ">　　　<input type="button" class="pinkbutton" onclick="location.href='index6.html'" value="編集"><br><br><br>
+        <div class="t"><br>
+            <div class="i">
+                <span id="savedData6_6"></span>
+            </div><br>
+        </div><br>
+        <div class="m"><br>
+            <div class="i">
+                <span id="savedData6"></span>
+            </div><br>
+        </div><br>
+
+        <script>
+            var savedData6 = localStorage.getItem('savedData6');
+            document.getElementById('savedData6').innerText = savedData6 || 'メモなし';
+        </script>
+        <script>
+            var savedData6_6 = localStorage.getItem('savedData6_6');
+            document.getElementById('savedData6_6').innerText = savedData6_6 || 'タイトルなし';
+        </script>
+    </body>
+</html>
