@@ -88,3 +88,8 @@ document.addEventListener('DOMContentLoaded', function() {
     var savedData7_7 = localStorage.getItem('savedData7_7');
     document.getElementById('dataInput7_7').value = savedData7_7 || 'タイトルなし'; 
 });
+
+function deleteData1() {
+    document.getElementById('savedData1').value = '';
+    document.getElementById('savedData1_1').value = '';
+}
